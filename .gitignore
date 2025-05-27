@@ -1,0 +1,28 @@
+# This is a .gitignore file for a React.js project
+# Ignore node_modules directory
+node_modules/
+# Ignore build output
+build/
+# Ignore coverage reports
+coverage/
+# Ignore local environment files
+.env.local
+# Ignore test coverage reports
+coverage/
+# Ignore logs
+logs/
+*.log
+# Operating System files
+.DS_Store
+# Node.js dependencies
+node_modules/
+# Build directories
+dist/
+# Environment variables
+.env
+# IDE specific files
+.vscode/
+# Temporary files
+*.tmp
+# Backup files
+*.bak
