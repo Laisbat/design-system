@@ -1,9 +1,10 @@
-import React from 'react';
+import type { ButtonProps } from "@mui/material";
+import { Button as MuiButton } from "@mui/material";
 
-export const Button = ({ children }: { children: React.ReactNode }) => {
+export const Button = ({ children, ...props }: ButtonProps) => {
   return (
-    <button className="bg-blue-600 text-white px-4 py-2 rounded">
+    <MuiButton variant="contained" {...props}>
       {children}
-    </button>
+    </MuiButton>
   );
 };

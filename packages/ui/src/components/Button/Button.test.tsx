@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
-import { Button } from "./";
+import { Button } from "./index";
 
 describe("Button", () => {
   it("renders with children", () => {
-    render(<Button>Click me</Button>);
-    expect(screen.getByText("Click me")).toBeInTheDocument();
+    render(<Button>Test</Button>);
+    expect(screen.getByText("Test")).toBeInTheDocument();
   });
 });
