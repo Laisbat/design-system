@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
     "jsx": "react-jsx",
     "strict": true,
-    "types": ["vite/client"]
-  }
+    "noEmit": true,
+    "moduleResolution": "bundler",
+    "types": ["vite/client"],
+    "skipLibCheck": true
+  },
 }
