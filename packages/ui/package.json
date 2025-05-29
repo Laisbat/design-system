@@ -48,6 +48,10 @@
     "vite": "^6.3.5",
     "vitest": "^3.1.4"
   },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
   "overrides": {
     "storybook": "$storybook"
   }
