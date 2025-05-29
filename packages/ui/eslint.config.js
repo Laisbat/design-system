@@ -8,7 +8,7 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import tseslint from 'typescript-eslint';
 
 const tsConfig = {
-  files: ['**/*.ts', '**/*.tsx','**/*.test.ts', '**/*.test.tsx', '**/*.spec.ts', '**/*.spec.tsx'],
+  files: ['**/*.ts', '**/*.tsx','**/*.test.ts', '**/*.test.tsx', '**/*.spec.ts', '**/*.spec.tsx', 'vitest.d.ts'],
   languageOptions: {
     parser: tseslint.parser,
     parserOptions: {

@@ -31,7 +31,7 @@
     "checkJs": false,
     "noEmit": true,
     "moduleDetection": "force",
-    "types": ["vite/client"]
+    "types": ["vite/client", "vitest"]
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "vitest.d.ts"]
 }

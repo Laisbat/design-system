@@ -6,7 +6,7 @@
     "strict": true,
     "noEmit": true,
     "moduleResolution": "bundler",
-    "types": ["vite/client"],
+    "types": ["vite/client", "vitest"],
     "skipLibCheck": true
   },
 }
